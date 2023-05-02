@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+h1{
+  text-align: center; 
+}
+.menu{
+  text-align: center;
+}
+.menu ul li{
+  display: inline;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  letter-spacing: 15px;
+}
+.menu ul li a{
+  color: #eee;
+  text-decoration: none;
+}
+.menu ul{
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  padding: 10px 0px;
+}
+section{
+  float: left;
+  width: 80%;
+  height: 500px;
+  text-align: center;
+}
+#ad{
+  text-align: center;
+}
+aside{
+  float: left;
+  width: 20%;
+  height: 500px;
+  font-size: 20px;
+  border: 2px solid blue;
+}
+footer{
+  text-align: center;
+}
