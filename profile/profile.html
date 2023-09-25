@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>링크트리</title>
+    <style>
+        @import url('css/pretendard.css');
+        *{
+            font-family: "Pretendard", serif;
+        }
+        body{
+            background-color: #ff9326;
+        }
+        .profile{
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            border: 2px solid white;
+            background-image: url(img/프로필.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .main{
+            color: #fff;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub{ 
+            color: #fff;
+            font-size: 10px;
+            margin-top: 0px;
+            margin-bottom: 30px;          
+        }
+        .wrap{
+            width: 350px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a{
+            font-size: 14px;
+            font-weight: bold;
+            color: black;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 3px 3px 5px 8px black;
+            width: 300px;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+        .wrap > a:hover{
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">민부토</h1>
+        <p class="sub"></p>
+        <a target="_blank" href="https://www.youtube.com/@minbuto/about">유튜브</a>
+        <a target="_blank" href="https://www.twitch.tv/mins507/about">트위치</a>
+        <a target="_blank" href="https://app.twip.kr/donate/mins507">투윕</a>
+        <a target="_blank" href="https://toon.at/donate/637605472877936352">투네이션</a>
+    </div>
+</body>
+</html>     
